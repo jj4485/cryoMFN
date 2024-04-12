@@ -10,6 +10,7 @@ from torch.nn.parallel import DataParallel
 from cryodrgn import fft, lie_tools, utils
 import cryodrgn.config
 from cryodrgn.lattice import Lattice
+import mfnmodels
 
 Norm = Sequence[Any]  # mean, std
 
