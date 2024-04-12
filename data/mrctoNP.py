@@ -22,8 +22,8 @@ def convert_npy_to_mrc(npy_filename, mrc_filename, apix):
     MRCFile.write(mrc_filename, npy_data, header)
 
 # Example usage of the function
-npy_file_path = 'path/to/your/data.npy'  # Replace with your actual .npy file path
-mrc_file_path = 'path/to/your/output.mrc'  # Replace with your desired output .mrc file path
+npy_file_path = '/scratch/network/jj4485/cryoMFN/cryoMFN/cryodrgn/data/particle_stack.npy'  # Replace with your actual .npy file path
+mrc_file_path = '/scratch/network/jj4485/cryoMFN/cryoMFN/cryodrgn/data'  # Replace with your desired output .mrc file path
 angstrom_per_voxel = 1.0  # Replace with the actual pixel size
 
 # Call the conversion function
